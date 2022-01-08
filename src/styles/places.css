@@ -1,0 +1,35 @@
+.places-container {
+  display: flex;
+  padding-top: 12vh;
+  margin: 2vh;
+  justify-content: space-between;
+  position: relative;
+}
+.places-container h2 {
+  position: absolute;
+  left: 35%;
+  right: 20%;
+  top: 20px;
+}
+.places-container img {
+  max-height: 200px;
+}
+@media screen and (max-width: 700px) {
+  .places-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .places-container h2 {
+    position: relative;
+    text-align: center;
+    padding-bottom: 20px;
+    left: auto;
+    right: auto;
+    top: auto;
+  }
+  .places-container .card {
+    margin-bottom: 30px;
+  }
+}

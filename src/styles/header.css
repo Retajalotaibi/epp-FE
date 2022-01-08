@@ -1,0 +1,30 @@
+.header {
+  width: "100%";
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.header-text {
+  justify-self: start;
+}
+.header-text h2 {
+  font-weight: bold;
+  font-size: 3.3rem;
+  color: #5e6a83;
+}
+.header-text button {
+  border: none;
+  background-color: #364462;
+  color: aliceblue;
+  width: 230px;
+  height: 45px;
+  border-radius: 19px;
+}
+@media screen and (max-width: 800px) {
+  .header-img {
+    display: none;
+  }
+  .header-text {
+    padding-top: 20vw;
+  }
+}

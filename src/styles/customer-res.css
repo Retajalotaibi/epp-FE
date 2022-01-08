@@ -1,0 +1,62 @@
+.cus-res {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cus-container {
+  display: flex;
+  justify-content: space-betweend;
+  align-items: center;
+  max-width: 50vw;
+  padding: 20px;
+  padding-left: 5vw;
+}
+.cus-container p {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.cus-info img {
+  width: 200px;
+  height: auto;
+  padding-right: 20px;
+  padding-bottom: 15px;
+}
+
+/*
+ RESPONSES
+*/
+.all-res {
+  padding: 20px;
+  max-height: 600px;
+  overflow-y: scroll;
+  scroll-behavior: auto;
+}
+.all-res .card {
+  background-color: #1a2c49 !important;
+}
+.all-res .card-header {
+  display: flex;
+  flex-direction: row;
+}
+.res-star img {
+  max-width: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .cus-res {
+    flex-direction: column-reverse;
+  }
+  .cus-container {
+    flex-direction: column;
+    max-width: 100%;
+    text-align: center;
+    padding-left: 0;
+  }
+  .all-res {
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+}
