@@ -59,4 +59,7 @@
     align-items: center;
     margin: auto;
   }
+  .cus-info img {
+    padding-right: 0;
+  }
 }

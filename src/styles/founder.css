@@ -1,0 +1,23 @@
+.container-FS {
+  text-align: center;
+  background-color: #1a2c49;
+  color: #fff;
+  padding-top: 10vh;
+}
+
+.FS .text-p {
+  height: 100%;
+}
+.FS .images {
+  display: flex;
+  justify-content: center;
+}
+.FS .images img {
+  width: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .FS .images {
+    display: block;
+  }
+}
